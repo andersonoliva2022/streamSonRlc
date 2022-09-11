@@ -1,0 +1,56 @@
+* {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400 & display=swap');
+
+#btn-ouca-aqui {
+    background-color: #ffffff;
+    display: flex;
+    border: #0C225E;
+    border-radius: 70px;
+    height: 35px;
+    width: 145px;
+    align-items: center;
+    gap: 5px;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+#btn-ouca-aqui:hover {
+    background-color: yellow;
+    transition: 0.5s linear;
+}
+
+#box-son {
+    display: flex;
+    background-color: #0C225E;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+#ouca-aqui {
+    color: #0C225E
+}
+
+#red-latina {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.stream {
+    display: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 440px) {
+    #red-latina {
+        display: none;
+    }
+
+}
